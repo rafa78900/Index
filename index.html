@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="templatemo-electric-xtra.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Animated Shapes -->
+    <div class="shapes-container">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-square"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00B2FF;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="20,2 38,14 38,26 20,38 2,26 2,14" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="20,8 32,16 32,24 20,32 8,24 8,16" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">REG</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+   <section class="hero" id="home">
+    <div class="hero-content">
+        <div class="text-rotator">
+            <div class="text-set active">
+                <h1 class="glitch-text" data-text="FUTURE IS NOW">Dynamic Web Solutions</h1>
+                <p class="subtitle">Creating responsive, interactive, and visually engaging digital experiences</p>
+            </div>
+            <div class="text-set">
+                <h1 class="glitch-text" data-text="BEYOND LIMITS">Innovative Interface Design</h1>
+                <p class="subtitle">Bringing clarity and sophistication to modern web platforms</p>
+            </div>
+            <div class="text-set">
+                <h1 class="glitch-text" data-text="ELECTRIC DREAMS">Advanced Front-End Development</h1>
+                <p class="subtitle">Delivering seamless performance with elegant design</p>
+            </div>
+        </div>
+    </div>
+          <div class="cta-container">
+            <a href="#features" class="cta-button cta-primary">Get Started</a>
+            <a href="#about" class="cta-button cta-secondary">Learn More</a>
+        </div>
+    </section>
+
+     
+  
+
+    <!-- Features Section with Tabs -->
+  <!-- Features Section with Tabs -->
+<section class="features" id="features">
+    <h2 class="section-title">Core Features</h2>
+    <div class="features-container">
+        <div class="feature-tabs">
+            <div class="tab-item active" data-tab="responsive">
+                <span class="tab-icon">📱</span>
+                <span>Responsive Design</span>
+            </div>
+            <div class="tab-item" data-tab="interactive">
+                <span class="tab-icon">✨</span>
+                <span>Interactive Interfaces</span>
+            </div>
+            <div class="tab-item" data-tab="performance">
+                <span class="tab-icon">⚡</span>
+                <span>Performance Optimization</span>
+            </div>
+            <div class="tab-item" data-tab="modern-tech">
+                <span class="tab-icon">🛠</span>
+                <span>Modern Technologies</span>
+            </div>
+            <div class="tab-item" data-tab="custom">
+                <span class="tab-icon">🎯</span>
+                <span>Custom Solutions</span>
+            </div>
+        </div>
+
+        <div class="feature-content">
+            <div class="content-panel active" id="responsive">
+                <h3>Adaptive & Seamless Layouts</h3>
+                <p>Delivering websites that adapt perfectly to desktops, tablets, and mobile devices. Every element is carefully optimized to ensure a consistent and professional user experience across all screen sizes.</p>
+                <ul class="feature-list">
+                    <li>Fluid grids and flexible images</li>
+                    <li>Cross-device compatibility</li>
+                    <li>Optimized for touch and click interactions</li>
+                    <li>Accessibility-conscious design</li>
+                    <li>Pixel-perfect presentation on any screen</li>
+                </ul>
+            </div>
+
+            <div class="content-panel" id="interactive">
+                <h3>Engaging User Interfaces</h3>
+                <p>Dynamic components, subtle animations, and hover effects that enhance user interaction. Interfaces designed to engage users while maintaining clarity and elegance.</p>
+                <ul class="feature-list">
+                    <li>Interactive forms and menus</li>
+                    <li>Smooth micro-animations</li>
+                    <li>Hover and focus effects</li>
+                    <li>Responsive feedback for actions</li>
+                    <li>Enhanced user engagement and retention</li>
+                </ul>
+            </div>
+
+            <div class="content-panel" id="performance">
+                <h3>Optimized for Speed</h3>
+                <p>Websites built for efficiency and reliability, ensuring fast load times and smooth performance even under heavy traffic.</p>
+                <ul class="feature-list">
+                    <li>Minified and optimized code</li>
+                    <li>Image compression and lazy loading</li>
+                    <li>Smart caching strategies</li>
+                    <li>Reliable uptime and server performance</li>
+                    <li>Seamless browsing experience</li>
+                </ul>
+            </div>
+
+            <div class="content-panel" id="modern-tech">
+                <h3>Cutting-Edge Technologies</h3>
+                <p>Utilizing the latest front-end frameworks and tools to build future-proof, maintainable, and scalable websites.</p>
+                <ul class="feature-list">
+                    <li>React, Three.js, and modern JS frameworks</li>
+                    <li>Component-based architecture</li>
+                    <li>Cross-browser compatibility</li>
+                    <li>Optimized for modern SEO and performance</li>
+                    <li>Maintainable and scalable codebase</li>
+                </ul>
+            </div>
+
+            <div class="content-panel" id="custom">
+                <h3>Tailored Solutions</h3>
+                <p>Custom features and designs crafted to fit your unique goals, ensuring a website that truly reflects your brand and vision.</p>
+                <ul class="feature-list">
+                    <li>Personalized UI/UX design</li>
+                    <li>Custom forms, tools, and interactive elements</li>
+                    <li>Integration with existing systems</li>
+                    <li>Advanced visual effects and animations</li>
+                    <li>End-to-end bespoke development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+<!-- About Section -->
+<section class="about" id="about">
+    <h2 class="section-title">About REG PLC</h2>
+
+    <!-- First row -->
+    <div class="about-content">
+        <div class="about-text">
+            <h2>Shaping the Digital Landscape</h2>
+            <p>REG PLC delivers next-generation web solutions designed to transform businesses and empower users. We combine innovation, precision, and scalability to create digital experiences that are both visually striking and highly functional.</p>
+            <p>Our team specializes in modern front-end development, interactive design, and seamless integrations. Every project is crafted with attention to detail, ensuring that your brand stands out in a rapidly evolving digital world.</p>
+            <p>At REG PLC, technology is not just built — it is designed to evolve, adapt, and inspire. Join us as we redefine the possibilities of web development and digital engagement.</p>
+        </div>
+        <div class="about-visual">
+            <div class="about-graphic"></div>
+        </div>
+    </div>
+
+    <!-- Second row with reversed layout -->
+    <div class="about-content" style="margin-top: 80px;">
+        <div class="about-visual">
+            <div class="about-graphic-alt">
+                <div class="hexagon"></div>
+                <div class="hexagon"></div>
+                <div class="hexagon"></div>
+            </div>
+        </div>
+        <div class="about-text">
+            <h2>Innovation Through Expertise</h2>
+            <p>Our approach blends creativity with technical excellence. From advanced front-end frameworks to interactive 3D elements, we deliver websites that are not only visually compelling but engineered for performance, scalability, and user engagement.</p>
+            <p>Every solution is tailored to the unique needs of our clients. We leverage the latest technologies, including WebGL, Three.js, and modern JavaScript frameworks, to create websites that are future-ready and adaptable.</p>
+            <p>With REG PLC, your digital presence is more than just a website — it’s a platform for growth, interaction, and innovation. Experience the fusion of design and technology at its finest.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                   <div class="form-group">
+                         <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="email">Email</label>
+                         <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="subject">Subject</label>
+                         <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                         <label for="message">Message</label>
+                         <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Connect With Us</h3>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div class="info-details">
+                        <h4>Email</h4>
+                        <p>info@reg.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div class="info-details">
+                        <h4>Phone</h4>
+                        <p>+251 91 234 5678</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <p>Addis Abeba, Bole</p>
+                    </div>
+                </div>
+                <section id="map-section">
+    <div class="map-container">
+        <!-- Map placeholder for fallback or before map loads -->
+        <div class="map-placeholder">
+            <p>Interactive Map</p>
+            <p style="font-size: 0.9rem; margin-top: 10px;">Addis Abeba, Bole</p>
+        </div>
+
+        <!-- Overlay for animated scan/gradient effect -->
+        <div class="map-overlay"></div>
+
+        <!-- Actual Leaflet map -->
+        <div id="map" style="width:100%; height:100%; position:absolute; top:0; left:0;"></div>
+    </div>
+</section>
+
+<!-- Leaflet CSS & JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="Privacy-Policy.html">Privacy Policy</a>
+                <a href="Terms-of-Service.html">Terms of Service</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <p class="copyright">© 2026 REG PLC. All rights reserved. Building tomorrow, today. | Design: <a href="https://regplc.com" target="_blank" rel="nofollow noopener">REG PLC</a></p>
+        </div>
+    </footer>
+<script src="templatemo-electric-scripts.js"></script>
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+</body>
+</html>
